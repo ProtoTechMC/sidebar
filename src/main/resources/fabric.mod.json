@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "protosidebar",
+  "version": "${version}",
+  "name": "Proto Sidebar",
+  "description": "",
+  "authors": [
+    "Kerbaras"
+  ],
+  "contact": {
+    "repo": "https://github.com/ProtoTechMC/sidebar"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "protosidebar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

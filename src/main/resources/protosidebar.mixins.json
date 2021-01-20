@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.prototech.protosidebar.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandManagerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
